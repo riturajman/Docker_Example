@@ -1,1 +1,2 @@
-sudo pm2 restart server.js
+pm2 kill
+sudo pm2 start server.js
